@@ -574,12 +574,21 @@ video {
   z-index: -1;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .mt-\[100px\] {
   margin-top: 100px;
 }
 
 .mt-\[150px\] {
   margin-top: 150px;
+}
+
+.mt-\[240px\] {
+  margin-top: 240px;
 }
 
 .flex {
@@ -596,6 +605,10 @@ video {
 
 .w-\[100\%\] {
   width: 100%;
+}
+
+.w-\[300px\] {
+  width: 300px;
 }
 
 .w-\[43\%\] {
@@ -638,6 +651,18 @@ video {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
+.gap-0 {
+  gap: 0px;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-\[100px\] {
   gap: 100px;
 }
@@ -663,9 +688,29 @@ video {
   background-color: rgb(0 164 229 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#141A20\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 26 32 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#171819\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 24 25 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[aqua\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 255 255 / var(--tw-bg-opacity, 1));
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .px-\[10\%\] {
@@ -676,6 +721,11 @@ video {
 .px-\[50px\] {
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .py-3 {
@@ -691,6 +741,10 @@ video {
 .py-\[50px\] {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
 .text-center {
