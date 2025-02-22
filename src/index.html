@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VXXXXX</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
 
-    <div class="pered_header flex flex-col items-center justify-between py-[50px] h-[100vh] text-white">
+<body>
+    <div class="pered_header flex flex-col items-center md:justify-between md:py-[50px] py-3 md:h-[100vh] text-white">
         <img src="./projeco-logo.png" alt="">
 
         <div class="text-center">
-            <h1 class="text-[50px]">PARTNER WITH KONSTUCT</h1>
-            <p class="text-[18px]">An award-winning construction management firm</p>
+            <h1 class=" font-bold text-[25px] md:text-[50px] my-[45px]">PARTNER WITH KONSTUCT</h1>
+            <p class="hidden md:block md:text-[18px]">An award-winning construction management firm</p>
         </div>
 
         <p>SCROLL DOWN</p>
     </div>
 
-    <header class="px-[10%]">
+    <header class="px-[10%] hidden md:block">
         <nav class="flex justify-between items-center py-5">
             <img src="projeco-logo-black.png" alt="">
 
@@ -36,51 +37,52 @@
 
     <hr>
 
-    <main>
-
-        <section class="mt-[100px] px-[10%] flex flex-col gap-[150px]">
+    <main class="mt-[-600px] md:m-0">
+        <section class="mt-[100px] md:px-[10%] flex flex-col gap-[50px] md:gap-[150px] px-5">
             <div class="flex flex-col items-center ">
                 <h1 class="text-[40px] text-[#48555B]">OUR STORY</h1>
                 <div class="w-[90px] h-[2px] bg-[#00A4E5]"></div>
             </div>
 
-            <div class="flex justify-between ">
-                <aside class="w-[45%] flex flex-col gap-[40px]">
+            <div class="md:flex justify-between ">
+                <aside class="md:w-[45%] flex flex-col gap-[40px]">
                     <h2 class="text-[25px] font-bold text-[#48555B]">Founded in 2011 by John Mathew Smith, Konstruct has
                         become the
                         number one construction
                         management firm</h2>
 
-                    <p class="text-[#48555B]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                    <p class="text-[#48555B] ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                        nonummy
                         nibh euismod tincidunt
                         ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                         sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
                 </aside>
 
-                <aside class="w-[43%] flex justify-between items-end">
-                    <img src="./plan.png" alt="">
-                    <img src="./manage.png" alt="">
-                    <img src="./deliver.png" alt="">
+                <aside class=" w-[100%] md:w-[43%] md:flex md:justify-between flex-col md:flex-row m-auto md:items-end">
+                    <img src="./plan.png" alt="" class="w-[100%] md:w-auto mt-5 md:m-0">
+                    <img src="./manage.png" alt="" class="w-[100%] md:w-auto mt-5 md:m-0">
+                    <img src="./deliver.png" alt="" class="w-[100%] md:w-auto mt-5 md:m-0">
                 </aside>
             </div>
         </section>
 
         <section class="px-[10%] mt-[100px] flex flex-col gap-[100px]">
-            <div class="flex justify-between items-center">
+            <div class="flex justify-between items-center flex-col md:flex-row">
                 <div>
                     <h1 class="text-[30px] text-[#48555B]">OUR CAPABILITIES</h1>
                     <div class="w-[80px] h-[2px] bg-[#00A4E5]"></div>
                 </div>
-                <div class="flex justify-between w-[65%]">
-                    <p class="text-[#48555B]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <br>
+                <div class="flex justify-between md:w-[65%]">
+                    <p class="text-[#48555B] hidden md:block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam <br class="hidden md:block">
                         nonummy nibh euismod tincidunt
                         ut laoreet dolore magna aliquam erat.</p>
 
-                    <button class="bg-[#00A4E5] text-white font-bold px-10">ALL SERVICES</button>
+                    <button class="bg-[#00A4E5] text-white font-bold px-10 mt-10 md:m-0">ALL SERVICES</button>
                 </div>
             </div>
 
-            <div class="flex justify-between">
+            <div class="flex justify-between flex-col md:flex-row gap-10">
                 <img src="./service.png" alt="">
                 <img src="./service (1).png" alt="">
                 <img src="./service (2).png" alt="">
@@ -98,11 +100,11 @@
 
         </section>
 
-        <footer class="bg-[#171819] text-white flex justify-center mt-[240px] py-5 gap-10 items-center">
-            <h1 class="text-[30px]">Newsletter Signup</h1>
+        <footer class="bg-[#171819] text-white flex justify-center mt-[240px] py-5 gap-10 items-center w-[100%]">
+            <h1 class="text-[30px] hidden md:block">Newsletter Signup</h1>
 
             <div class="bg-[aqua] flex gap-0">
-                <input type="email" placeholder="test@youremail.com" class="py-1 w-[300px] pl-5"> <button
+                <input type="email" placeholder="test@youremail.com" class="py-1 md:w-[300px] pl-5"> <button
                     class="bg-[#00A4E5] py-1 font-bold px-3">SIGNUP</button>
             </div>
         </footer>
@@ -114,7 +116,8 @@
 
                 <img src="./projeco-logo.png" alt="" class="my-5">
 
-                <p>Lorem ipsum dolor sit amet, consectetuer <br> adipiscing elit, sed diam nonummy nibh <br> euismod tincidunt ut
+                <p class="hidden md:block">Lorem ipsum dolor sit amet, consectetuer <br> adipiscing elit, sed diam nonummy nibh <br> euismod
+                    tincidunt ut
                     laoreet dolore <br> magna aliquam erat.</p>
             </div>
 
@@ -126,21 +129,20 @@
                 <li>Contact Us</li>
             </ul>
 
-            <ul>
+            <ul class="hidden md:block">
                 <li>Faq</li>
                 <li>Terms</li>
                 <li>Careers</li>
             </ul>
 
-            <ul>
+            <ul class="hidden md:block">
                 <li>Blog</li>
                 <li>Partners</li>
                 <li>News</li>
             </ul>
 
         </div>
-
     </main>
-    
 </body>
+
 </html>
