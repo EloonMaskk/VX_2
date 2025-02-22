@@ -574,9 +574,30 @@ video {
   z-index: -1;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.my-\[45px\] {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-\[-600px\] {
+  margin-top: -600px;
 }
 
 .mt-\[100px\] {
@@ -595,8 +616,8 @@ video {
   display: flex;
 }
 
-.h-\[100vh\] {
-  height: 100vh;
+.hidden {
+  display: none;
 }
 
 .h-\[2px\] {
@@ -605,22 +626,6 @@ video {
 
 .w-\[100\%\] {
   width: 100%;
-}
-
-.w-\[300px\] {
-  width: 300px;
-}
-
-.w-\[43\%\] {
-  width: 43%;
-}
-
-.w-\[45\%\] {
-  width: 45%;
-}
-
-.w-\[65\%\] {
-  width: 65%;
 }
 
 .w-\[80px\] {
@@ -633,10 +638,6 @@ video {
 
 .flex-col {
   flex-direction: column;
-}
-
-.items-end {
-  align-items: flex-end;
 }
 
 .items-center {
@@ -665,10 +666,6 @@ video {
 
 .gap-\[100px\] {
   gap: 100px;
-}
-
-.gap-\[150px\] {
-  gap: 150px;
 }
 
 .gap-\[40px\] {
@@ -713,6 +710,11 @@ video {
   padding-right: 0.75rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .px-\[10\%\] {
   padding-left: 10%;
   padding-right: 10%;
@@ -751,10 +753,6 @@ video {
   text-align: center;
 }
 
-.text-\[18px\] {
-  font-size: 18px;
-}
-
 .text-\[25px\] {
   font-size: 25px;
 }
@@ -769,10 +767,6 @@ video {
 
 .text-\[45px\] {
   font-size: 45px;
-}
-
-.text-\[50px\] {
-  font-size: 50px;
 }
 
 .font-bold {
@@ -792,4 +786,76 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 768px) {
+  .md\:m-0 {
+    margin: 0px;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:h-\[100vh\] {
+    height: 100vh;
+  }
+
+  .md\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .md\:w-\[43\%\] {
+    width: 43%;
+  }
+
+  .md\:w-\[45\%\] {
+    width: 45%;
+  }
+
+  .md\:w-\[65\%\] {
+    width: 65%;
+  }
+
+  .md\:w-auto {
+    width: auto;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-end {
+    align-items: flex-end;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:gap-\[150px\] {
+    gap: 150px;
+  }
+
+  .md\:px-\[10\%\] {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .md\:py-\[50px\] {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .md\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .md\:text-\[50px\] {
+    font-size: 50px;
+  }
 }
